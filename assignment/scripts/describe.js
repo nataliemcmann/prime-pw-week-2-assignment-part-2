@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to the string 'Dane'.
+// Then we have a conditional statement that checks if name is the string 'Mary'
+// If name is 'Mary', the we console.log 'Hi, Mary'.
+// If name is not 'Mary', we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called secret with no assigned value. We create a variable called code
+// and set it to the number 123. Then we check whether code is equal to 123 or greater than 
+// the number 250. If code is 123, then the string 'super' is assigned to the variable secret,
+// and the current value of code is multiplied by two. If code is greater than 250, then the 
+// string 'duper' is assigned to the variable secret and nothing happens to code. 
+// Then, we console.log secret, which should be 'super' because code is 123.
 
 //CODE
 /*
@@ -70,10 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create the variable isStudent and set it equal to boolean true. We create the variable age
+// and set it to number 34. We create the variable zip and set it to number 55407. The we check 
+// if both isStudent is true and zip is greater than 80000. If both these condition are true,
+// then we console.log 'You're a student on the West Coast!'. If not, then we check if isStudent is false
+// or age is less than 30, which is if one of these statements true, console logs 'What are your hobbies?'.
+// If neither of the compound conditional statements are true, then we check is isStudent is true
+// and if so, we console log 'Welcome to Prime'. If none of the conditional statements are met, 
+// then we console log 'How about the weather?' 
 
 //CODE
 /*
@@ -134,6 +140,10 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX -instructions ask to set both colorOne and colorTwo to 'purple'. As written, 
+//only colorOne is reassigned.
+// should add colorTwo = 'purple'; below the code reassigning colorOne
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -143,10 +153,19 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+
 /*
 let temp = 40;
+
+// Fix - 1) the instructions imply that time can be values other than 4
+//but the time variable is currently declared with const, which means the value of time
+//cannot be changed.
+// Solution 1) should be let time = 4;
 const time = 4;
 
+//Fix - 2) the instructions as for temp AND time values to be checked, but as written,
+// temp OR time values are checked.
+// Solution 2) should be (temp > 39 && time >=4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -156,10 +175,19 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+
+
 /*
 let age = 21;
 const minAge = 21;
 
+//FIX - 1) as written, the if...else statement appears reversed compared to what to the 
+// instructions declare
+// should be if (age >= minAge) {
+//              console.log('enter'); 
+//              } else {
+//              console.log('no entry');  
+//               }
 if(minAge <= age) {
   console.log('no entry');
 } else {
