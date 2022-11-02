@@ -76,8 +76,8 @@ console.log(secret)
 // and set it to number 34. We create the variable zip and set it to number 55407. The we check 
 // if both isStudent is true and zip is greater than 80000. If both these condition are true,
 // then we console.log 'You're a student on the West Coast!'. If not, then we check if isStudent is false
-// or age is less than 30, which is if one of these statements true, console logs 'What are your hobbies?'.
-// If neither of the compound conditional statements are true, then we check is isStudent is true
+// or age is less than 30, and if one of these statements true, console logs 'What are your hobbies?'.
+// If neither of the compound conditional statements are true, then we check if isStudent is true
 // and if so, we console log 'Welcome to Prime'. If none of the conditional statements are met, 
 // then we console log 'How about the weather?' 
 
@@ -159,7 +159,7 @@ let temp = 40;
 
 // Fix - 1) the instructions imply that time can be values other than 4
 //but the time variable is currently declared with const, which means the value of time
-//cannot be changed.
+//cannot be changed. Unsure if this is neccessary
 // Solution 1) should be let time = 4;
 const time = 4;
 
