@@ -29,7 +29,8 @@ if (number >= 2) {
 // We make a variable called name and set it to the string 'Dane'.
 // Then we have a conditional statement that checks if name is the string 'Mary'
 // If name is 'Mary', the we console.log 'Hi, Mary'.
-// If name is not 'Mary', we console.log 'How do you do?'
+// If name is not 'Mary', we console.log 'How do you do?' Since name is not 'Mary',
+// the console logs 'How do you do?'
 
 //CODE
 /*
@@ -46,7 +47,7 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We create a variable called secret with no assigned value. We create a variable called code
-// and set it to the number 123. Then we check whether code is equal to 123 or greater than 
+// and set it to the number 123. Then we check whether code is number 123 or greater than 
 // the number 250. If code is 123, then the string 'super' is assigned to the variable secret,
 // and the current value of code is multiplied by two. If code is greater than 250, then the 
 // string 'duper' is assigned to the variable secret and nothing happens to code. 
@@ -74,12 +75,13 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We create the variable isStudent and set it equal to boolean true. We create the variable age
 // and set it to number 34. We create the variable zip and set it to number 55407. The we check 
-// if both isStudent is true and zip is greater than 80000. If both these condition are true,
-// then we console.log 'You're a student on the West Coast!'. If not, then we check if isStudent is false
+// if both isStudent is boolean true and zip is greater than 80000. If both these condition are true,
+// then we console.log 'You're a student on the West Coast!'. If not, then we check if isStudent is boolean false
 // or age is less than 30, and if one of these statements true, console logs 'What are your hobbies?'.
-// If neither of the compound conditional statements are true, then we check if isStudent is true
+// If neither of the compound conditional statements are true, then we check if isStudent is boolean true
 // and if so, we console log 'Welcome to Prime'. If none of the conditional statements are met, 
-// then we console log 'How about the weather?' 
+// then we console log 'How about the weather?'. Since isStudent is boolean true, but age is greater than 30
+// zip is less than 80000, the console logs 'Welcome to Prime!' once this code is run.  
 
 //CODE
 /*
@@ -136,16 +138,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX 1: colorOne should be assigned to 'blue' and colorTwo should be assigned to 'red'
+//Solution 1: let colorOne = 'blue';
+              let colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX -instructions ask to set both colorOne and colorTwo to 'purple'. As written, 
+// FIX 2-instructions ask to set both colorOne and colorTwo to 'purple'. As written, 
 //only colorOne is reassigned.
-// should add colorTwo = 'purple'; below the code reassigning colorOne
 
 if (mix === true) {
   colorOne = 'purple';
+// Solution 2: colorTwo = 'purple'; below the code reassigning colorOne  
 }
 */
 
