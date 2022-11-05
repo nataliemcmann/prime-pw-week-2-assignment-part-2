@@ -28,9 +28,7 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and set it to the string 'Dane'.
 // Then we have a conditional statement that checks if name is the string 'Mary'
-// If name is 'Mary', the we console.log 'Hi, Mary'.
-// If name is not 'Mary', we console.log 'How do you do?' Since name is not 'Mary',
-// the console logs 'How do you do?'
+// Since name is not 'Mary', the console logs 'How do you do?'
 
 //CODE
 /*
@@ -51,7 +49,7 @@ if (name === 'Mary') {
 // the number 250. If code is 123, then the string 'super' is assigned to the variable secret,
 // and the current value of code is multiplied by two. If code is greater than 250, then the 
 // string 'duper' is assigned to the variable secret and nothing happens to code. 
-// Then, we console.log secret, which should be 'super' because code is 123.
+// When we run the code, the console logs 'super' because code is 123.
 
 //CODE
 /*
@@ -139,18 +137,20 @@ if (number >= 2) {
 
 /*
 //FIX 1: colorOne should be assigned to 'blue' and colorTwo should be assigned to 'red'
-//Solution 1: let colorOne = 'blue';
-              let colorTwo = 'red';
+//Solution 1: 
+let colorOne = 'blue';
+let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 // FIX 2-instructions ask to set both colorOne and colorTwo to 'purple'. As written, 
 //only colorOne is reassigned.
+// Solution 2: colorTwo = 'purple'; below the code reassigning colorOne 
 
 if (mix === true) {
   colorOne = 'purple';
-// Solution 2: colorTwo = 'purple'; below the code reassigning colorOne  
 }
 */
 
@@ -166,11 +166,13 @@ let temp = 40;
 //but the time variable is currently declared with const, which means the value of time
 //cannot be changed. Unsure if this is neccessary
 // Solution 1) should be let time = 4;
+
 const time = 4;
 
 //Fix - 2) the instructions as for temp AND time values to be checked, but as written,
 // temp OR time values are checked.
 // Solution 2) should be (temp > 39 && time >=4)
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
